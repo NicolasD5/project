@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}Login Page{% endblock %}</title>
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock %}
+</head>
+<body>
+{% extends "base.html" %}
+{% block content %}
+<h1>Login</h1>
+<form action="/login" method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    <a href="{{ url_for('forgot_login') }}" class="forgot-password-link">Forgot Password?</a><br><br>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Add active state styling */
+.navbar li a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Right-aligned items */
+.navbar li:last-child {
+    float: right;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px; /* Prevent content from overlapping the navbar */
+}

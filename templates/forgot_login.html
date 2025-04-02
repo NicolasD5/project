@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Forgot Password{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/forgot_login.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1>Reset your Password</h1>
+<form action="/forgot_login" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="security_answer_1">Who is your favourite music artist?</label>
+    <input type="text" id="security_answer_1" name="security_answer_1" required>
+    <br>
+    
+    <label for="security_answer_2">Who was your favourite teacher in school?</label>
+    <input type="text" id="security_answer_2" name="security_answer_2" required>
+    <br>
+    
+    <label for="new_password">New Password:</label>
+    <input type="password" id="new_password" name="new_password" required>
+    
+    <a href="{{ url_for('login') }}" class="back-to-login-link">Back to Login</a>
+    
+    <input type="submit" value="Reset Password">
+</form>
+{% endblock %}

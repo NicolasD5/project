@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="{{ url_for('home') }}" {% if request.endpoint == 'home' %}class="active"{% endif %}>Home</a></li>
+            {% if session.get('user_id') %}
+                <li><a href="{{ url_for('customer_dashboard') }}" {% if request.endpoint == 'customer_dashboard' %}class="active"{% endif %}>Dashboard</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+            {% else %}
+                <li><a href="{{ url_for('login') }}" {% if request.endpoint == 'login' %}class="active"{% endif %}>Login</a></li>
+                <li><a href="{{ url_for('create_account') }}" {% if request.endpoint == 'create_account' %}class="active"{% endif %}>Create Account</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}Create Account{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/flash_messages.css') }}">
+{% endblock %}
+
+{% block content %}
+{%autoescape false%}
+<h1>Create an Account</h1>
+
+<!-- Add flash messages section -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        {% for category, message in messages %}
+            <div class="flash-messages {{ category }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+
+<div class="form-container">
+    <form action="{{ url_for('create_account') }}" method="POST" enctype="multipart/form-data">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="password-criteria">
+            <p>Password must meet the following criteria:</p>
+            <ul>
+                <li id="length" class="invalid">At least 8 characters</li>
+                <li id="uppercase" class="invalid">At least one uppercase letter</li>
+                <li id="lowercase" class="invalid">At least one lowercase letter</li>
+                <li id="number" class="invalid">At least one number</li>
+                <li id="special" class="invalid">At least one special character (@$!%*?&)</li>
+                <li id="spaces" class="invalid">No spaces</li>
+            </ul>
+        </div>
+        <br>
+        <label for="mobile">Mobile Phone Number:</label>       
+        <input type="tel" id="mobile" name="mobile" required>
+        <br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        <br>
+        <div class="form-group">
+            <label for="profile_image">Profile Picture:</label>
+            <input type="file" id="profile_image" name="profile_image" accept="image/*">
+        </div>
+        <br>
+        <br>
+
+        <h2>Security Questions</h2>
+        <div class="security-questions">
+            <label for="security_question_1">Who is your favourite music artist?</label>
+            <input type="text" id="security_question_1" name="security_question_1" required>
+            <br>
+            <label for="security_question_2">Who was your favourite teacher in school?</label>
+            <input type="text" id="security_question_2" name="security_question_2" required>
+            <br>
+        </div>
+
+        <button type="submit">Create Account</button>
+    </form>
+</div>
+{%endautoescape%}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/password_validation.js') }}"></script>
+{% endblock %}

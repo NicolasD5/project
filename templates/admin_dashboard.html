@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="admin-verification">
+    <div class="admin-header">
+        <h1>Admin Verification</h1>
+        <p>A verification code has been sent to the system terminal.</p>
+    </div>
+    
+    <form class="verification-form" action="{{ url_for('admin_dashboard') }}" method="POST">
+        <div class="form-group">
+            <label for="verification_code">Enter Verification Code:</label>
+            <input type="text" id="verification_code" name="verification_code" required>
+        </div>
+        <button type="submit" class="btn-edit">Verify Access</button>
+    </form>
+    
+    <a href="{{ url_for('home') }}" class="btn-logout">Back to Home</a>
+</div>
+{% endblock %}

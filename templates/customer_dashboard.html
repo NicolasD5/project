@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Customer Dashboard{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <img src="{{ url_for('static', filename='profile_images/' + user_data.profile_image) if user_data.profile_image else url_for('static', filename='profile_images/default.png') }}" 
+         alt="Profile Picture" 
+         class="profile-image">
+    <h1>Welcome, {{ user_data.username }}!</h1>
+    <div class="user-info">
+        <p><strong>Mobile:</strong> {{ user_data.mobile }}</p>
+        <p><strong>Address:</strong> {{ user_data.address }}</p>
+    </div>
+</div>
+{% endblock %}
