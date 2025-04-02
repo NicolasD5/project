@@ -21,7 +21,6 @@ from werkzeug.utils import secure_filename
 from password_validation import PasswordValidator
 # Import rate limiting functionality
 from flask_limiter import Limiter
-from flask_wtf.csrf import CSRFProtect
 from flask_limiter.util import get_remote_address
 
 import base64
@@ -29,8 +28,6 @@ import base64
 # Create Flask application instance
 app = Flask(__name__)
 
-# Initialise CSRF protection
-csrf = CSRFProtect(app)
 
 # Initialise rate limiter with IP-based tracking and stricter limits
 limiter = Limiter(
@@ -595,12 +592,6 @@ def ratelimit_handler(e):
     logger.warning(f"Rate limit exceeded: {e.description}")
     flash("Too many requests. Please try again later.", "danger")
     return redirect(url_for('login')), 429
-
-@app.errorhandler(400) #Handles errors caused by CSRF token issues
-def handle_csrf_error(e):
-    logger.warning(f"CSRF token error: {e.description}")
-    flash("Invalid form submission. Please try again.", "danger")
-    return redirect(url_for('login')), 400
 
 if __name__ == "__main__":
     app.run(debug=True)

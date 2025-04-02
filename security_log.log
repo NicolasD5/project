@@ -4628,3 +4628,226 @@
 2025-04-02 19:59:20,940 127.0.0.1 - - [02/Apr/2025 19:59:20] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
 2025-04-02 19:59:20,940 127.0.0.1 - - [02/Apr/2025 19:59:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
 2025-04-02 19:59:20,940 127.0.0.1 - - [02/Apr/2025 19:59:20] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:16:31,305 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 21:16:31,305 [33mPress CTRL+C to quit[0m
+2025-04-02 21:16:31,306  * Restarting with stat
+2025-04-02 21:16:31,406  * Debugger is active!
+2025-04-02 21:16:31,412  * Debugger PIN: 731-033-986
+2025-04-02 21:16:31,985 127.0.0.1 - - [02/Apr/2025 21:16:31] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:16:32,085 127.0.0.1 - - [02/Apr/2025 21:16:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:16:32,086 127.0.0.1 - - [02/Apr/2025 21:16:32] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:16:32,088 127.0.0.1 - - [02/Apr/2025 21:16:32] "GET /static/js/password_validation.js HTTP/1.1" 200 -
+2025-04-02 21:16:32,090 127.0.0.1 - - [02/Apr/2025 21:16:32] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:16:55,002 The CSRF token is missing.
+2025-04-02 21:16:55,003 CSRF token error: The CSRF token is missing.
+2025-04-02 21:16:55,004 127.0.0.1 - - [02/Apr/2025 21:16:55] "[31m[1mPOST /create_account HTTP/1.1[0m" 400 -
+2025-04-02 21:17:00,528 127.0.0.1 - - [02/Apr/2025 21:17:00] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:17:00,547 127.0.0.1 - - [02/Apr/2025 21:17:00] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:00,549 127.0.0.1 - - [02/Apr/2025 21:17:00] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:00,549 127.0.0.1 - - [02/Apr/2025 21:17:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:17:08,855 User not found or invalid password
+2025-04-02 21:17:08,856 127.0.0.1 - - [02/Apr/2025 21:17:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:17:08,863 127.0.0.1 - - [02/Apr/2025 21:17:08] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:17:08,886 127.0.0.1 - - [02/Apr/2025 21:17:08] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:08,886 127.0.0.1 - - [02/Apr/2025 21:17:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:08,886 127.0.0.1 - - [02/Apr/2025 21:17:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:17:10,834 127.0.0.1 - - [02/Apr/2025 21:17:10] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:17:10,853 127.0.0.1 - - [02/Apr/2025 21:17:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:10,853 127.0.0.1 - - [02/Apr/2025 21:17:10] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:10,855 127.0.0.1 - - [02/Apr/2025 21:17:10] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:17:10,855 127.0.0.1 - - [02/Apr/2025 21:17:10] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:17:25,188 The CSRF token is missing.
+2025-04-02 21:17:25,188 CSRF token error: The CSRF token is missing.
+2025-04-02 21:17:25,189 127.0.0.1 - - [02/Apr/2025 21:17:25] "[31m[1mPOST /create_account HTTP/1.1[0m" 400 -
+2025-04-02 21:18:22,572  * Detected change in '/Users/nicolasdimi/Documents/project/project/main.py', reloading
+2025-04-02 21:18:22,614  * Restarting with stat
+2025-04-02 21:18:22,804  * Debugger is active!
+2025-04-02 21:18:22,810  * Debugger PIN: 731-033-986
+2025-04-02 21:18:25,011 The CSRF token is missing.
+2025-04-02 21:18:25,012 CSRF token error: The CSRF token is missing.
+2025-04-02 21:18:25,013 127.0.0.1 - - [02/Apr/2025 21:18:25] "[31m[1mPOST /create_account HTTP/1.1[0m" 400 -
+2025-04-02 21:18:26,684 127.0.0.1 - - [02/Apr/2025 21:18:26] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:18:26,752 127.0.0.1 - - [02/Apr/2025 21:18:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:26,755 127.0.0.1 - - [02/Apr/2025 21:18:26] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:26,761 127.0.0.1 - - [02/Apr/2025 21:18:26] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:26,973 127.0.0.1 - - [02/Apr/2025 21:18:26] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:18:26,986 127.0.0.1 - - [02/Apr/2025 21:18:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:18:26,988 127.0.0.1 - - [02/Apr/2025 21:18:26] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:28,266 127.0.0.1 - - [02/Apr/2025 21:18:28] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:18:28,284 127.0.0.1 - - [02/Apr/2025 21:18:28] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:28,284 127.0.0.1 - - [02/Apr/2025 21:18:28] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:28,284 127.0.0.1 - - [02/Apr/2025 21:18:28] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:18:28,285 127.0.0.1 - - [02/Apr/2025 21:18:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:18:42,429 The CSRF token is missing.
+2025-04-02 21:18:42,429 CSRF token error: The CSRF token is missing.
+2025-04-02 21:18:42,430 127.0.0.1 - - [02/Apr/2025 21:18:42] "[31m[1mPOST /create_account HTTP/1.1[0m" 400 -
+2025-04-02 21:19:34,518  * Detected change in '/Users/nicolasdimi/Documents/project/project/main.py', reloading
+2025-04-02 21:19:34,561  * Restarting with stat
+2025-04-02 21:19:34,754  * Debugger is active!
+2025-04-02 21:19:34,759  * Debugger PIN: 731-033-986
+2025-04-02 21:19:37,057 127.0.0.1 - - [02/Apr/2025 21:19:37] "[32mPOST /create_account HTTP/1.1[0m" 302 -
+2025-04-02 21:19:37,069 Unhandled exception: 'csrf_token' is undefined
+2025-04-02 21:19:37,070 127.0.0.1 - - [02/Apr/2025 21:19:37] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-04-02 21:19:37,095 127.0.0.1 - - [02/Apr/2025 21:19:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:19:38,920 Unhandled exception: 'csrf_token' is undefined
+2025-04-02 21:19:38,921 127.0.0.1 - - [02/Apr/2025 21:19:38] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-04-02 21:19:38,934 127.0.0.1 - - [02/Apr/2025 21:19:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:19:39,881 127.0.0.1 - - [02/Apr/2025 21:19:39] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:19:39,897 127.0.0.1 - - [02/Apr/2025 21:19:39] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:19:39,898 127.0.0.1 - - [02/Apr/2025 21:19:39] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:19:41,665 Unhandled exception: 'csrf_token' is undefined
+2025-04-02 21:19:41,666 127.0.0.1 - - [02/Apr/2025 21:19:41] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-04-02 21:19:41,682 127.0.0.1 - - [02/Apr/2025 21:19:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:20:54,535  * Detected change in '/Users/nicolasdimi/Documents/project/project/main.py', reloading
+2025-04-02 21:20:54,571  * Restarting with stat
+2025-04-02 21:20:54,752  * Debugger is active!
+2025-04-02 21:20:54,758  * Debugger PIN: 731-033-986
+2025-04-02 21:21:06,862 127.0.0.1 - - [02/Apr/2025 21:21:06] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:21:06,893 127.0.0.1 - - [02/Apr/2025 21:21:06] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:06,893 127.0.0.1 - - [02/Apr/2025 21:21:06] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:06,893 127.0.0.1 - - [02/Apr/2025 21:21:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:08,331 127.0.0.1 - - [02/Apr/2025 21:21:08] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:21:08,348 127.0.0.1 - - [02/Apr/2025 21:21:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:08,349 127.0.0.1 - - [02/Apr/2025 21:21:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:08,349 127.0.0.1 - - [02/Apr/2025 21:21:08] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:08,350 127.0.0.1 - - [02/Apr/2025 21:21:08] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:21,898 127.0.0.1 - - [02/Apr/2025 21:21:21] "POST /create_account HTTP/1.1" 200 -
+2025-04-02 21:21:21,917 127.0.0.1 - - [02/Apr/2025 21:21:21] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:21,918 127.0.0.1 - - [02/Apr/2025 21:21:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:21,918 127.0.0.1 - - [02/Apr/2025 21:21:21] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:21,918 127.0.0.1 - - [02/Apr/2025 21:21:21] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:40,535 127.0.0.1 - - [02/Apr/2025 21:21:40] "[32mPOST /create_account HTTP/1.1[0m" 302 -
+2025-04-02 21:21:40,543 127.0.0.1 - - [02/Apr/2025 21:21:40] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:21:40,567 127.0.0.1 - - [02/Apr/2025 21:21:40] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:40,567 127.0.0.1 - - [02/Apr/2025 21:21:40] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:40,568 127.0.0.1 - - [02/Apr/2025 21:21:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:47,446 User not found or invalid password
+2025-04-02 21:21:47,446 127.0.0.1 - - [02/Apr/2025 21:21:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:21:47,454 127.0.0.1 - - [02/Apr/2025 21:21:47] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:21:47,473 127.0.0.1 - - [02/Apr/2025 21:21:47] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:47,473 127.0.0.1 - - [02/Apr/2025 21:21:47] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:47,474 127.0.0.1 - - [02/Apr/2025 21:21:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:53,261 User not found or invalid password
+2025-04-02 21:21:53,261 127.0.0.1 - - [02/Apr/2025 21:21:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:21:53,269 127.0.0.1 - - [02/Apr/2025 21:21:53] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:21:53,296 127.0.0.1 - - [02/Apr/2025 21:21:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:21:53,296 127.0.0.1 - - [02/Apr/2025 21:21:53] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:21:53,296 127.0.0.1 - - [02/Apr/2025 21:21:53] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:00,745 User not found or invalid password
+2025-04-02 21:22:00,745 127.0.0.1 - - [02/Apr/2025 21:22:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:22:00,754 127.0.0.1 - - [02/Apr/2025 21:22:00] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:22:00,775 127.0.0.1 - - [02/Apr/2025 21:22:00] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:00,775 127.0.0.1 - - [02/Apr/2025 21:22:00] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:00,775 127.0.0.1 - - [02/Apr/2025 21:22:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:08,160 User not found or invalid password
+2025-04-02 21:22:08,162 127.0.0.1 - - [02/Apr/2025 21:22:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:22:08,170 127.0.0.1 - - [02/Apr/2025 21:22:08] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:22:08,199 127.0.0.1 - - [02/Apr/2025 21:22:08] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:08,200 127.0.0.1 - - [02/Apr/2025 21:22:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:08,201 127.0.0.1 - - [02/Apr/2025 21:22:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:12,759 127.0.0.1 - - [02/Apr/2025 21:22:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:22:12,769 User data fetched from session: {'id': 1, 'username': 'test1', 'mobile': '0459595958', 'address': '11 Test street', 'profile_image': 'test1_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg'}
+2025-04-02 21:22:12,772 127.0.0.1 - - [02/Apr/2025 21:22:12] "GET /customer_dashboard HTTP/1.1" 200 -
+2025-04-02 21:22:12,790 127.0.0.1 - - [02/Apr/2025 21:22:12] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:12,796 127.0.0.1 - - [02/Apr/2025 21:22:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:12,797 127.0.0.1 - - [02/Apr/2025 21:22:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:12,798 127.0.0.1 - - [02/Apr/2025 21:22:12] "[36mGET /static/profile_images/test1_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg HTTP/1.1[0m" 304 -
+2025-04-02 21:22:16,164 127.0.0.1 - - [02/Apr/2025 21:22:16] "GET / HTTP/1.1" 200 -
+2025-04-02 21:22:16,183 127.0.0.1 - - [02/Apr/2025 21:22:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:16,184 127.0.0.1 - - [02/Apr/2025 21:22:16] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:16,184 127.0.0.1 - - [02/Apr/2025 21:22:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:21,567 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-02 21:22:21,567 [33mPress CTRL+C to quit[0m
+2025-04-02 21:22:21,568  * Restarting with stat
+2025-04-02 21:22:21,671  * Debugger is active!
+2025-04-02 21:22:21,676  * Debugger PIN: 731-033-986
+2025-04-02 21:22:25,741 127.0.0.1 - - [02/Apr/2025 21:22:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-02 21:22:25,758 127.0.0.1 - - [02/Apr/2025 21:22:25] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:22:25,801 127.0.0.1 - - [02/Apr/2025 21:22:25] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:25,824 127.0.0.1 - - [02/Apr/2025 21:22:25] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:25,827 127.0.0.1 - - [02/Apr/2025 21:22:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:27,383 127.0.0.1 - - [02/Apr/2025 21:22:27] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:22:27,396 127.0.0.1 - - [02/Apr/2025 21:22:27] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:27,397 127.0.0.1 - - [02/Apr/2025 21:22:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:27,398 127.0.0.1 - - [02/Apr/2025 21:22:27] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:27,398 127.0.0.1 - - [02/Apr/2025 21:22:27] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:45,350 127.0.0.1 - - [02/Apr/2025 21:22:45] "[32mPOST /create_account HTTP/1.1[0m" 302 -
+2025-04-02 21:22:45,357 127.0.0.1 - - [02/Apr/2025 21:22:45] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:22:45,374 127.0.0.1 - - [02/Apr/2025 21:22:45] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:45,374 127.0.0.1 - - [02/Apr/2025 21:22:45] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:45,375 127.0.0.1 - - [02/Apr/2025 21:22:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:51,489 127.0.0.1 - - [02/Apr/2025 21:22:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:22:51,498 User data fetched from session: {'id': 6, 'username': 'test500', 'mobile': '23487656', 'address': '10 test street', 'profile_image': 'test500_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg'}
+2025-04-02 21:22:51,500 127.0.0.1 - - [02/Apr/2025 21:22:51] "GET /customer_dashboard HTTP/1.1" 200 -
+2025-04-02 21:22:51,529 127.0.0.1 - - [02/Apr/2025 21:22:51] "GET /static/profile_images/test500_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg HTTP/1.1" 200 -
+2025-04-02 21:22:51,529 127.0.0.1 - - [02/Apr/2025 21:22:51] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:51,531 127.0.0.1 - - [02/Apr/2025 21:22:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:51,531 127.0.0.1 - - [02/Apr/2025 21:22:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:22:54,710 127.0.0.1 - - [02/Apr/2025 21:22:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-02 21:22:54,717 127.0.0.1 - - [02/Apr/2025 21:22:54] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:22:54,733 127.0.0.1 - - [02/Apr/2025 21:22:54] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:54,733 127.0.0.1 - - [02/Apr/2025 21:22:54] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:22:54,733 127.0.0.1 - - [02/Apr/2025 21:22:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:02,084  * Detected change in '/Users/nicolasdimi/Documents/project/project/main.py', reloading
+2025-04-02 21:23:02,134  * Restarting with stat
+2025-04-02 21:23:02,299  * Debugger is active!
+2025-04-02 21:23:02,306  * Debugger PIN: 731-033-986
+2025-04-02 21:23:03,287 127.0.0.1 - - [02/Apr/2025 21:23:03] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:23:03,311 127.0.0.1 - - [02/Apr/2025 21:23:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:03,311 127.0.0.1 - - [02/Apr/2025 21:23:03] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:03,311 127.0.0.1 - - [02/Apr/2025 21:23:03] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:08,040 127.0.0.1 - - [02/Apr/2025 21:23:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:23:08,049 User data fetched from session: {'id': 6, 'username': 'test500', 'mobile': '23487656', 'address': '10 test street', 'profile_image': 'test500_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg'}
+2025-04-02 21:23:08,051 127.0.0.1 - - [02/Apr/2025 21:23:08] "GET /customer_dashboard HTTP/1.1" 200 -
+2025-04-02 21:23:08,081 127.0.0.1 - - [02/Apr/2025 21:23:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:08,081 127.0.0.1 - - [02/Apr/2025 21:23:08] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:08,081 127.0.0.1 - - [02/Apr/2025 21:23:08] "[36mGET /static/profile_images/test500_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg HTTP/1.1[0m" 304 -
+2025-04-02 21:23:08,083 127.0.0.1 - - [02/Apr/2025 21:23:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:09,822 127.0.0.1 - - [02/Apr/2025 21:23:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-02 21:23:09,830 127.0.0.1 - - [02/Apr/2025 21:23:09] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:23:09,845 127.0.0.1 - - [02/Apr/2025 21:23:09] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:09,849 127.0.0.1 - - [02/Apr/2025 21:23:09] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:09,850 127.0.0.1 - - [02/Apr/2025 21:23:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:10,369 127.0.0.1 - - [02/Apr/2025 21:23:10] "GET /create_account HTTP/1.1" 200 -
+2025-04-02 21:23:10,389 127.0.0.1 - - [02/Apr/2025 21:23:10] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:10,389 127.0.0.1 - - [02/Apr/2025 21:23:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:10,391 127.0.0.1 - - [02/Apr/2025 21:23:10] "[36mGET /static/css/flash_messages.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:10,391 127.0.0.1 - - [02/Apr/2025 21:23:10] "[36mGET /static/js/password_validation.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:23,937 127.0.0.1 - - [02/Apr/2025 21:23:23] "[32mPOST /create_account HTTP/1.1[0m" 302 -
+2025-04-02 21:23:23,946 127.0.0.1 - - [02/Apr/2025 21:23:23] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:23:23,963 127.0.0.1 - - [02/Apr/2025 21:23:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:23,964 127.0.0.1 - - [02/Apr/2025 21:23:23] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:23,965 127.0.0.1 - - [02/Apr/2025 21:23:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:29,794 127.0.0.1 - - [02/Apr/2025 21:23:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:23:29,802 User data fetched from session: {'id': 7, 'username': 'test501', 'mobile': '0439393939', 'address': '10 test street', 'profile_image': 'test501_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg'}
+2025-04-02 21:23:29,803 127.0.0.1 - - [02/Apr/2025 21:23:29] "GET /customer_dashboard HTTP/1.1" 200 -
+2025-04-02 21:23:29,834 127.0.0.1 - - [02/Apr/2025 21:23:29] "GET /static/profile_images/test501_devin-booker-and-chris-paul-9jahtfcxcens1y5t.jpg HTTP/1.1" 200 -
+2025-04-02 21:23:29,834 127.0.0.1 - - [02/Apr/2025 21:23:29] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:29,835 127.0.0.1 - - [02/Apr/2025 21:23:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:29,837 127.0.0.1 - - [02/Apr/2025 21:23:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:34,181 127.0.0.1 - - [02/Apr/2025 21:23:34] "GET / HTTP/1.1" 200 -
+2025-04-02 21:23:34,200 127.0.0.1 - - [02/Apr/2025 21:23:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:34,201 127.0.0.1 - - [02/Apr/2025 21:23:34] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:34,201 127.0.0.1 - - [02/Apr/2025 21:23:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:35,898 127.0.0.1 - - [02/Apr/2025 21:23:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-02 21:23:35,905 127.0.0.1 - - [02/Apr/2025 21:23:35] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:23:35,928 127.0.0.1 - - [02/Apr/2025 21:23:35] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:35,929 127.0.0.1 - - [02/Apr/2025 21:23:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:35,929 127.0.0.1 - - [02/Apr/2025 21:23:35] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:39,379 127.0.0.1 - - [02/Apr/2025 21:23:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-02 21:23:39,390 127.0.0.1 - - [02/Apr/2025 21:23:39] "GET /admin_dashboard HTTP/1.1" 200 -
+2025-04-02 21:23:39,411 127.0.0.1 - - [02/Apr/2025 21:23:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:39,412 127.0.0.1 - - [02/Apr/2025 21:23:39] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:39,412 127.0.0.1 - - [02/Apr/2025 21:23:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:44,566 127.0.0.1 - - [02/Apr/2025 21:23:44] "[32mPOST /admin_dashboard HTTP/1.1[0m" 302 -
+2025-04-02 21:23:44,581 127.0.0.1 - - [02/Apr/2025 21:23:44] "GET /view_users HTTP/1.1" 200 -
+2025-04-02 21:23:44,653 127.0.0.1 - - [02/Apr/2025 21:23:44] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:44,659 127.0.0.1 - - [02/Apr/2025 21:23:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:44,675 127.0.0.1 - - [02/Apr/2025 21:23:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:52,523 127.0.0.1 - - [02/Apr/2025 21:23:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-02 21:23:52,530 127.0.0.1 - - [02/Apr/2025 21:23:52] "GET /login HTTP/1.1" 200 -
+2025-04-02 21:23:52,544 127.0.0.1 - - [02/Apr/2025 21:23:52] "[36mGET /static/css/navbar.css HTTP/1.1[0m" 304 -
+2025-04-02 21:23:52,545 127.0.0.1 - - [02/Apr/2025 21:23:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-04-02 21:23:52,545 127.0.0.1 - - [02/Apr/2025 21:23:52] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
